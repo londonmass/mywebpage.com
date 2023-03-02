@@ -1,0 +1,64 @@
+body
+{
+	font-family: 'Century Gothic';
+}
+body {
+	background-color: yellow;
+	
+}
+
+#main-header 
+{
+	
+	color: cornflowerblue;
+	font-family: 'Comic Sans MS';
+	text-align:	center;
+}
+#ICSS {
+	color: purple;
+	font-size: 25px;
+}
+#ECSS {
+	color: dodgerblue;
+	font-size: 25px;
+}
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+}
+
+	/* Style the topnav links */
+	.topnav a {
+		float: left;
+		display: block;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+div.gallery {
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 180px;
+}
+
+	div.gallery:hover {
+		border: 1px solid #777;
+	}
+
+	div.gallery img {
+		width: 100%;
+		height: auto;
+	}
+
+div.desc {
+	padding: 15px;
+	text-align: center;
+}
+
+.topnav a:hover {
+			background-color: #ddd;
+			color: black;
+
+}
